@@ -3,13 +3,13 @@ This is a quick start creating an angular2 application with webpack.
 
 ### Quick start
 ```bash
-# clone
+# Clone my repo
 git clone https://github.com/muweigg/ng2.git
 
-# change directory to ng2
+# Change directory to ng2
 cd ng2
 
-# install dependencies
+# Install dependencies
 npm install
 or
 yarn install
