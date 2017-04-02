@@ -1,7 +1,7 @@
 {
   "name": "ng2",
   "version": "0.0.1",
-  "description": "Angular 2 starter",
+  "description": "This is a quick start creating an angular 2 application with webpack.",
   "scripts": {
     "build:aot": "webpack --config config/webpack.prod.js --progress",
     "serve": "webpack-dev-server --config config/webpack.dev.js --progress"
