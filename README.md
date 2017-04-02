@@ -1,6 +1,5 @@
 # ng2
 This is a quick start creating an angular 2 application with webpack.
-* Support to Angular 4.
 
 ### Quick start
 ```bash
