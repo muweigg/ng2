@@ -15,8 +15,12 @@ or
 yarn install
 
 # Start dev server at http://localhost:3001
-npm serve
+npm run serve
+or
+yarn serve
 
 # Build for production (uses aot compiler)
 npm run build:aot
+or
+yarn build:aot
 ```
