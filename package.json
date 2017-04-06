@@ -4,7 +4,7 @@
   "description": "This is a quick start creating an angular 2 application with webpack.",
   "scripts": {
     "build:aot": "webpack --config config/webpack.prod.js --progress",
-    "serve": "webpack-dev-server --config config/webpack.dev.js --progress"
+    "serve": "webpack-dev-server --config config/webpack.dev.js --progress --inline --hot"
   },
   "author": "MuWei",
   "license": "MIT",
