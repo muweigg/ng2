@@ -1,18 +1,18 @@
 const helpers = require('./helpers');
 const SpritesmithPlugin = require('webpack-spritesmith');
 
-function getConfig (name) {
+function getConfig(name) {
     return new SpritesmithPlugin({
         src: {
             cwd: helpers.root(`src/sprites/${name}`),
             glob: '**/*.png'
         },
         target: {
-            image: helpers.root(`src/assets/${name}.png`),
+            image: helpers.root(`src/assets/images/${name}.png`),
             css: helpers.root(`src/sprites/${name}.scss`)
         },
         apiOptions: {
-            cssImageRef: `./assets/${name}.png`
+            cssImageRef: `./assets/images/${name}.png`
         },
         spritesmithOptions: {
             padding: 10,
@@ -26,4 +26,3 @@ function getConfig (name) {
 module.exports = [
     getConfig('icons')
 ]
-
